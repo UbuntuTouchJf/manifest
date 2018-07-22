@@ -150,20 +150,6 @@
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="los" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="los" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" remote="aosp" />
-  <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" remote="aosp" />
-  <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" remote="aosp" />
-  <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" remote="aosp" />
-  <project path="hardware/intel/common/libmix" name="android_hardware_intel_common_libmix" groups="intel" remote="los" />
-  <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" remote="aosp" />
-  <project path="hardware/intel/common/libva" name="android_hardware_intel_common_libva" groups="intel" remote="los" />
-  <project path="hardware/intel/common/libwsbm" name="android_hardware_intel_common_libwsbm" groups="intel" remote="los" />
-  <project path="hardware/intel/common/omx-components" name="android_hardware_intel_common_omx-components" groups="intel" remote="los" />
-  <project path="hardware/intel/common/utils" name="android_hardware_intel_common_utils" groups="intel" remote="los" />
-  <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" remote="aosp" />
-  <project path="hardware/intel/img/hwcomposer" name="android_hardware_intel_img_hwcomposer" groups="intel" remote="los" />
-  <project path="hardware/intel/img/psb_headers" name="android_hardware_intel_img_psb_headers" groups="intel" remote="los" />
-  <project path="hardware/intel/img/psb_video" name="android_hardware_intel_img_psb_video" groups="intel" remote="los" />
-  <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" remote="aosp" />
   <project path="hardware/invensense" name="android_hardware_invensense" groups="invensense" remote="los" />
   <project path="hardware/libhardware" name="Halium/android_hardware_libhardware" groups="pdk" remote="hal" />
   <project path="hardware/libhardware_legacy" name="Halium/android_hardware_libhardware_legacy" groups="pdk" remote="hal" />
@@ -182,35 +168,11 @@
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" groups="omap4" remote="los" />
 
-  <project path="hardware/qcom/audio-caf/apq8084" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8084" remote="los"  />
-  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8916" remote="los"  />
-  <project path="hardware/qcom/audio-caf/msm8937" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8937" remote="los"  />
-  <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8952" remote="los"  />
   <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8960" remote="los"  />
-  <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8974" remote="los"  />
-  <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8994" remote="los"  />
-  <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8996" remote="los"  />
-  <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8998" remote="los"  />
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom" revision="cm-14.1-caf" remote="los"  />
-  <project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8084" remote="los"  />
-  <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8916" remote="los"  />
-  <project path="hardware/qcom/display-caf/msm8937" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8937" remote="los"  />
-  <project path="hardware/qcom/display-caf/msm8952" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8952" remote="los"  />
   <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8960" remote="los"  />
-  <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8974" remote="los"  />
-  <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8994" remote="los"  />
-  <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8996" remote="los"  />
-  <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8998" remote="los"  />
   <project path="hardware/qcom/fm" name="Halium/android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="hal"  />
-  <project path="hardware/qcom/media-caf/apq8084" name="android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8084" remote="los"  />
-  <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8916" remote="los"  />
-  <project path="hardware/qcom/media-caf/msm8937" name="android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8937" remote="los"  />
-  <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8952" remote="los"  />
   <project path="hardware/qcom/media-caf/msm8960" name="Halium/android_hardware_qcom_media" groups="qcom" revision="halium-7.1-caf-8960" remote="hal"  />
-  <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8974" remote="los"  />
-  <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8994" remote="los"  />
-  <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8996" remote="los"  />
-  <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8998" remote="los"  />
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-14.1-caf" remote="los"  />
   <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" revision="cm-14.1-caf" remote="los"  />
 
@@ -218,7 +180,6 @@
   <project path="libcore" name="Halium/android_libcore" groups="pdk" remote="hal" />
   <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" clone-depth="1" remote="aosp" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="los" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" clone-depth="1" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="los" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" clone-depth="1" remote="aosp" />
