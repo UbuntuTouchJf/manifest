@@ -139,7 +139,6 @@
   <project path="external/vulkan-validation-layers" name="platform/external/vulkan-validation-layers" remote="aosp" />
 
   <project path="frameworks/av" name="Halium/android_frameworks_av" groups="pdk" remote="hal" />
-  <project path="frameworks/base" name="Halium/android_frameworks_base" groups="pdk-cw-fs" remote="hal" />
   <project path="frameworks/native" name="Halium/android_frameworks_native" groups="pdk" remote="hal" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
@@ -216,11 +215,12 @@
   <project path="halium/halium-boot" name="Halium/halium-boot" remote="hal" revision="master" />
   <project path="halium/devices" name="Halium/halium-devices" remote="hal" />
 	
-  <!--jfltetmo-->
+  <!--jfltexx-->
   <project path="device/samsung/jfltexx" name="android_device_samsung_jfltexx" remote="jf" />
   <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="jf" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="jf" />
   <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="jf" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="jf" />
 	
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="los" />
   <project path="hardware/samsung" name="android_hardware_samsung" remote="los" />
