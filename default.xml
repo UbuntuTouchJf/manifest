@@ -217,7 +217,7 @@
   <project path="halium/devices" name="Halium/halium-devices" remote="hal" />
 	
   <!--jfltetmo-->
-  <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="jf" />
+  <project path="device/samsung/jfltexx" name="android_device_samsung_jfltexx" remote="jf" />
   <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="jf" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="jf" />
   <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="jf" />
