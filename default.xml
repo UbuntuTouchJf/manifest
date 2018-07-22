@@ -226,6 +226,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="jf" />
 	
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
+  <project path="external/libdivsufsort" name="platform/external/libdivsufsort" groups="pdk" remote="aosp" />
 	
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="los" />
   <project path="hardware/samsung" name="android_hardware_samsung" remote="los" />
