@@ -19,6 +19,10 @@
 	fetch="https://github.com/TheMuppets"
 	revision="refs/heads/cm-14.1" />
 	
+  <remote name="twrp"
+	fetch="https://github.com/omnirom"
+	revision="refs/heads/android-7.1" />
+	
   <remote name="jf" 
 	fetch="https://github.com/UbuntuTouchJf/" 
 	revision="7.1" />
@@ -207,7 +211,7 @@
 
   <project path="vendor/cm" name="Halium/android_vendor_cm" remote="hal" />
 
-  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="los" /> 
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="twrp" /> 
 
   <project path="halium/libhybris" name="Halium/libhybris" remote="hal" revision="refs/heads/halium-7.1" />
   <project path="halium/hybris-boot" name="Halium/hybris-boot" remote="hal" revision="refs/heads/master" />
